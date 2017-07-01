@@ -1,13 +1,3 @@
-apt-get update
-
-apt-get upgrade
-
-wget http://dl.ubnt.com/unifi/5.4.11/unifi_sysvinit_all.deb
-
-sudo dpkg -i unifi_sysvinit_all.deb
-
-sudo apt-get -f install
-
 
 1. pastikan router sudah bisa internet.
 
