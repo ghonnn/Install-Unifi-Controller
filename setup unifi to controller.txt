@@ -3,12 +3,12 @@
 
 2. ssh ke unifi via winbox / putty jika tau ipnya.
 
-3. ketik di ssh #set-inform http://202.150.172.xx:8080/inform
+3. ketik di ssh #set-inform http://192.168.7.xx:8080/inform
 
 4. klik adopt di browser controller cloud unifi.
 
 5. lalu ulangi commnd tadi di ssh nya
 
-6. ketik di ssh #set-inform http://202.150.172.xx:8080/inform
+6. ketik di ssh #set-inform http://192.168.7.xx:8080/inform
 
 7. tunggu sampai statusnya connect.
