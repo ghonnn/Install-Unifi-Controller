@@ -1,0 +1,24 @@
+apt-get update
+
+apt-get upgrade
+
+wget http://dl.ubnt.com/unifi/5.4.11/unifi_sysvinit_all.deb
+
+sudo dpkg -i unifi_sysvinit_all.deb
+
+sudo apt-get -f install
+
+
+1. pastikan router sudah bisa internet.
+
+2. ssh ke unifi via winbox / putty jika tau ipnya.
+
+3. ketik di ssh #set-inform http://202.150.172.xx:8080/inform
+
+4. klik adopt di browser controller cloud unifi.
+
+5. lalu ulangi commnd tadi di ssh nya
+
+6. ketik di ssh #set-inform http://202.150.172.xx:8080/inform
+
+7. tunggu sampai statusnya connect.
